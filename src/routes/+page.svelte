@@ -1,7 +1,12 @@
 <script>
-	import Counter from './Counter.svelte';
+	import ProductList from '$lib/components/ProductList/ProductList.svelte';
+	import { t } from '$lib/i18n/i18n.js';
+	//import Main from './Main.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
+	export let data;
+	const products = data.props.products;
+	const bestseller = products.filter((product) => product.tags.includes('bestseller'));
 </script>
 
 <svelte:head>
@@ -17,15 +22,14 @@
 				<img src={welcomeFallback} alt="Welcome" />
 			</picture>
 		</span>
-
-		to your new<br />SvelteKit app
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<div class="text-center">
+		<div class="pt-8">
+			<div class="text-2xl">{$t('home.bestseller_title')}</div>
+			<ProductList products={bestseller} />
+		</div>
+	</div>
 </section>
 
 <style>
