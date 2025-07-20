@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
 	import ProductList from '$lib/components/ProductList/ProductList.svelte';
 	import { t } from '$lib/i18n/i18n.js';
 	//import Main from './Main.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
-	export let data;
+	export let data: { props: { products: { tags: string[] }[] } };
 	const products = data.props.products;
-	const bestseller = products.filter((product) => product.tags.includes('bestseller'));
+	const bestseller = products.filter((product: { tags: string[] }) => product.tags.includes('bestseller'));
 </script>
 
 <svelte:head>
