@@ -42,7 +42,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_4.jpg'],
+		images: ['/products/b_20250720_1.jpg'],
 		price: 50.0,
 		currency: '€',
 		tags: []
@@ -90,7 +90,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_4.jpg'],
+		images: ['/products/b_20250720_2.jpg'],
 		price: 50.0,
 		currency: '€',
 		tags: []
@@ -106,7 +106,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_1.jpg'],
+		images: ['/products/b_20250720_3.jpg'],
 		price: 14.0,
 		currency: '€',
 		tags: []
@@ -122,7 +122,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_2.jpg'],
+		images: ['/products/b_20250720_4.jpg'],
 		price: 24.0,
 		currency: '€',
 		tags: []
@@ -138,7 +138,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_1.jpg'],
+		images: ['/products/b_20250720_5.jpg'],
 		price: 14.0,
 		currency: '€',
 		tags: []
@@ -154,7 +154,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_2.jpg'],
+		images: ['/products/b_20250720_6.jpg'],
 		price: 24.0,
 		currency: '€',
 		tags: []
@@ -170,7 +170,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_4.jpg'],
+		images: ['/products/b_20250720_7.jpg'],
 		price: 50.0,
 		currency: '€',
 		tags: []
