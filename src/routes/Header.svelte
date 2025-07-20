@@ -32,8 +32,8 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		<a href="https://github.com/justdoit1511619/Mochi">
+			<img src={github} alt="Mochi" />
 		</a>
 	</div>
 </header>

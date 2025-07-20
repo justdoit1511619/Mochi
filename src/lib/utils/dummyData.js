@@ -26,7 +26,7 @@ const products = [
 			en: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.',
 			de: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores officiis dolores suscipit, eveniet esse architecto minima nam! Exercitationem distinctio tenetur reprehenderit vel cupiditate possimus officia ab odio ipsam necessitatibus.'
 		},
-		images: ['/products/product_2.jpg'],
+		images: ['/products/product_2.png'],
 		price: 24.0,
 		currency: '€',
 		tags: ['bestseller']
