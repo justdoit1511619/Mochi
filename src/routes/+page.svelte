@@ -34,32 +34,6 @@
 	<div class="text-center">
 		<div class="pt-8">
 			<div class="text-2xl">{$t('home.bestseller_title')}</div>
-				<span
-					class="hidden w-0 right-0 bg-lightGray absolute ease-out duration-100 transition-all rounded-full -z-50 md:flex group-hover:w-full group-hover:h-full"
-				/>
-				<div
-					class="hidden invisible text-2xl px-2 {y < 90
-						? 'text-white'
-						: 'text-black'} md:flex group-hover:visible"
-				>
-					{$t('navbar.shopping_cart')}
-				</div>
-				<!-- Cart Icon -->
-				<svg
-					in:scale|local={{ duration: 200, start: 1.5, opacity: 1, easing: expoIn }}
-					class="block h-12 w-12 {y < 90 ? 'bg-white' : 'bg-black'} rounded-full p-2 ml-auto"
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke={y < 90 ? 'black' : 'white'}
-					stroke-width="2"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-					/></svg
-				>
 				<!-- Cart Items count -->
 				{#key cartNumber}
 					<div
@@ -68,6 +42,22 @@
 							: 'bg-black'} items-center top-12 right-10 px-2"
 						in:scale={{ duration: 200, start: 1.5, opacity: 1, easing: expoIn }}
 					>
+						<!-- Cart Icon -->
+						<svg
+							in:scale|local={{ duration: 200, start: 1.5, opacity: 1, easing: expoIn }}
+							class="block h-12 w-12 {y < 90 ? 'bg-white' : 'bg-black'} rounded-full p-2 ml-auto"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke={y < 90 ? 'black' : 'white'}
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+							/></svg
+						>					
 						{cartNumber}
 					</div>
 				{/key}
