@@ -1,26 +1,33 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+    <title>About</title>
+    <meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About this app</h1>
-
-	<p>
-		This is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> app. You can make your own by typing
-		the following into your command line and following the prompts:
-	</p>
-
-	<pre>npx sv create</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
+<div class="fullscreen-frame">
+    <iframe src="/happy birtday.html" frameborder="0"></iframe>
 </div>
+
+<style>
+.fullscreen-frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fullscreen-frame iframe {
+    width: 90vw;
+    height: 90vh;
+    border: none;
+    display: block;
+    box-shadow: 0 0 24px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    background: #fff;
+}
+</style>
